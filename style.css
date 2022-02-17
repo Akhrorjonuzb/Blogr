@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Big+Shoulders+Display:wght@200;700&family=Karla&family=Kumbh+Sans:wght@100;400&family=Lexend+Deca&family=Open+Sans:wght@300;400&family=Poppins:wght@500&family=Roboto:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Big+Shoulders+Display:wght@200;700&family=Karla&family=Kumbh+Sans:wght@100;400&family=Lexend+Deca&family=Open+Sans:wght@300;400&family=Poppins:wght@500&family=Roboto:ital,wght@0,500;1,500&display=swap');
+body{
+    margin: 0px;
+    
+}
+
+h1,h2, h3, h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* navbar */
+.heading{
+    margin: 0px;
+    
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 50px;
+    position: relative;
+
+   
+}
+#navbarDropdownMenuLink{
+    color: black;
+}
+li .dropdown-item{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.sign-up{
+    border-radius: 50px;
+    padding: 5px 10px;
+    transition: 1.7s;
+    transform: rotate(360deg);
+    border: 5px solid hsl(356, 100%, 66%);
+}
+.sign-up:hover{
+    background-color:hsl(356, 100%, 66%)
+    
+}
+.login{
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 5px 17px;
+    transition: 1.7s;
+    transform: rotate(360deg);
+    border: 5px solid hsl(356, 100%, 66%);
+}
+.login:hover{
+    background-color:hsl(356, 100%, 66%)
+
+}
+
+
+
+
+
+
+
+.buttons{
+    margin: 10px;
+}
+
+/* End of Navbar */
+
+.landing-heading{
+    text-align: center;
+    padding: 50px;
+    
+    margin-top: 50px;
+    
+}
+.landing-heading h1{
+    font-size: 2.5rem;
+}
+.start{
+margin-right: 10px;
+border-radius: 50px;
+padding: 5px 10px;
+margin-top: 50px;
+margin-bottom: 150px;
+transform: rotate(25deg);
+transition: 0.7;
+border: 5px solid hsl(356, 100%, 66%);
+}
+.start:hover{
+    background-color: hsl(356, 100%, 66%);
+}
+#platform{
+    background-color: hsl(356, 100%, 66%);
+    position: relative;
+    bottom: 30px;
+    background-image: url("images/bg-pattern-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-size: 200%;
+    
+    border-bottom-left-radius: 100px;
+    
+    
+    
+    }
+
+    h1, p{
+color: #fff;
+    }
+
+
+    /* Section-design */
+    .illustration-photo{
+        float: none;
+        display: block;
+        margin: auto;
+        width: 400px;
+        
+     }
+    .illustration{
+      
+        float: none;
+        position: relative;
+        bottom: 0px;
+      display: flex;
+      justify-content: center;
+      
+      
+    }
+
+    .future{
+        text-align: center;
+        margin-top: 50px;
+       
+    }
+
+
+    .editor{
+        width: auto;
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+        letter-spacing: 1.6;
+        font-size: 1.2em;
+        text-align: center;
+        margin: 20px;
+        margin-bottom: 50px;
+    }
+    .robust{
+        position: relative;
+        bottom: 20px;
+        width: auto;
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+        letter-spacing: 1.6;
+        font-size: 1.2em;
+        text-align: center;
+        margin: 20px;
+        
+    }
+
+    /* Speed Section */
+    #state{
+        background-color: hsl(208, 49%, 24%);
+        margin-top: 300px;
+        height: 80vh;
+        position: relative;
+
+        border-bottom-left-radius: 100px;
+border-top-right-radius: 100px;
+        }
+        .speed{
+            position: relative;
+            text-align: center;
+            margin: 20px;
+            padding: 1px 50px 0px 50px;
+            left: 0%;
+        width: auto;
+        bottom: 250px;
+
+        }
+        
+        .phone{
+            position: relative;
+          text-align: center;
+
+            /* bottom: 250px; */
+            bottom: 220px;
+            left: 0px;
+            
+        }
+
+.illustration-phone{
+            /* width: auto; */
+            width: 350px;
+            height: auto;
+        }
+
+
+
+        /* Section Free */
+
+        .illustration-photo-2{
+           
+           
+
+            float: none;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        
+         }
+        .illustration-2{
+          
+           margin: auto;
+           width: auto;
+           display: flex;
+           justify-content: center;
+           float: none;
+           
+           transform: translate(10%);
+        }
+         
+         .editor-2{
+             right: 0px;
+             width: auto;
+             position: relative;
+             margin-top: 250px;
+             margin-left: 0px;
+             letter-spacing: 1.6;
+             font-size: 1.2em;
+             text-align: center;
+             margin: 20px;
+            margin-bottom: 50px;
+         }
+         .robust-2{
+             right: 0px;
+             position: relative;
+             bottom: 20px;
+             width: auto;
+             position: relative;
+             margin-top: 50px;
+             margin-left: 0px;
+             letter-spacing: 1.6;
+             font-size: 1.2em;
+             text-align: center;
+             margin: 20px;
+             
+         }
+         .center-1{
+            
+         }
+
+        /* Footer */
+
+#footer{
+    background-color: black;
+    margin-top: 250px;
+    border-top-right-radius: 100px;
+    text-align: center;
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+padding: 20px;
+text-align: center;
+}
+.logo{
+    
+    width: 50px;
+    height: 50px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.logo-div{
+    text-align: center;
+}
+h5{
+font-size: 2 rem;
+color: #fff;
+padding-bottom: 20px;
+}
+.product-div{
+    margin-bottom: 20px;
+}
+.company-div{
+    margin-bottom: 20px;
+}
+.connect-div{
+    margin-bottom: 20px;
+}
+footer p{
+    color: grey;
+}
+
+.general-div{
+    margin: 50px 20px 0px px;
+}
+
+
+
+
+@media screen and (min-width: 1224px) {
+    .btn{
+        float: right;
+        margin-left: 30%;
+       
+    }
+.buttons{
+    margin-right: 40px;
+}
+.sign-up{
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+
+.login{
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 5px 18px;
+}
+.heading{
+   margin-left: 150px;
+    position: relative;
+   margin-top: 30px;
+   
+}
+.landing-heading{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.start{
+margin-right: 40px;
+border-radius: 50px;
+padding: 5px 10px;
+margin-top: 50px;
+margin-bottom: 150px;
+transform: rotate(25deg);
+transition: 0.7;
+
+
+}
+.start:hover{
+   background-color:hsl(356, 100%, 66%)
+
+}
+#platform{
+background-color: hsl(356, 100%, 66%);
+position: relative;
+bottom: 30px;
+background-image: url("images/bg-pattern-intro-desktop.svg");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right right;
+background-size: 125%;
+border-bottom-left-radius: 200px;
+
+
+}
+
+/* Section-design */
+.future{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.illustration{
+   float: right;
+   position: relative;
+   bottom: 100px;
+ display: flex;
+ justify-content: center;
+ 
+ 
+}
+.illustration-photo{
+width: 100%;
+
+}
+
+.editor{
+    width: auto;
+    position: relative;
+    margin-top: 150px;
+    margin-left: 100px;
+    letter-spacing: 1.6;
+    font-size: 1.2em;
+    text-align: left;
+}
+.robust{
+    position: relative;
+    bottom: 20px;
+    width: auto;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 100px;
+    letter-spacing: 1.6;
+    font-size: 1.2em;
+    text-align: left;
+}
+    
+/* State section */
+
+#state{
+background-color: hsl(208, 49%, 24%);
+margin-top: 100px;
+height: 60vh;
+position: relative;
+border-bottom-left-radius: 100px;
+border-top-right-radius: 100px;
+
+}
+.speed{
+    position: relative;
+    left: 50%;
+width: 550px;
+
+
+bottom: 440px;
+text-align: left;
+padding: 0px 0px 0px 0px;
+}
+
+.phone{
+    position: relative;
+    bottom: 50px;
+
+    /* float: left; */
+    left: 50px;
+    /* width: auto; */
+    width: 200px;
+    
+}
+.illustration-phone{
+            width: auto;
+            height: auto;
+        }
+
+
+
+/* Section Free */
+
+
+/* Section-Free */
+
+.future{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.illustration-2{
+   float: left;
+   position: relative;
+   bottom: 0px;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ 
+ transform: translate(0%);
+
+ 
+}
+.illustration-photo-2{
+width: 100%;
+height: auto;
+}
+
+.editor-2{
+    right: 100px;
+    width: auto;
+    position: relative;
+    margin-top: 250px;
+    margin-left:55%;
+    letter-spacing: 1.6;
+    font-size: 1.2em;
+    text-align: left;
+}
+.robust-2{
+    right: 100px;
+    position: relative;
+    bottom: 20px;
+    width: auto;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 55%;
+    letter-spacing: 1.6;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+
+
+
+/* Footer */
+
+#footer{
+    background-color: black;
+    margin-top: 250px;
+    border-top-right-radius: 100px;
+    text-align: center;
+   
+    
+}
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+padding: 20px;
+
+
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+h5{
+font-size: 2 rem;
+color: #fff;
+padding-bottom: 20px;
+}
+
+.general-div{
+    margin: 20px 100px 0px 4px;
+    
+    
+}
+
+}
+
+
+
+
